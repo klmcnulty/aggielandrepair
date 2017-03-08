@@ -1,0 +1,120 @@
+body {
+  background: grey;
+}
+#wrapper
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 50px;
+  background: black;
+  color: white;
+  font: bold 18px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+}
+header .container{
+  position: relative;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.searchbar {
+  float: right;
+  margin: 10px;
+}
+.topheadercs{
+  /*border: 1px solid black;*/
+  float: right;
+  padding: 20px;
+}
+.topheaderbr{
+  float: right;
+  padding: 20px
+}
+.bottomheader-container {
+  clear: both;
+}
+.bottomheader{
+  float: right;
+  padding: 20px;
+  background: rgba(0, 0, 0, 1);
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font: bold 18px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);/*fallback color*/
+  background: rgba(0, 0, 0, 1);
+}
+.logo{
+  position: absolute;
+  padding: 25px;
+  background-color: black;
+}
+.hero{
+  background: url(images/background.jpg);
+  height: 800px;
+  /*opacity: 0.4;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  position: relative;
+  background-size: 100%;
+}
+h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+}
+.hero h2 {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);/*fallback color*/
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.central-text {
+  float: right;
+}
+.apple {
+  float: right;
+  padding: 10px;
+}
+.windows {
+  float: right;
+  padding: 10px;
+}
+.mobile-support-container{
+  clear: both;
+}
+.mobile {
+  float: right;
+  padding: 10px;
+}
+.support {
+  float: right;
+  padding: 10px;
+}
+#searchbox
+{
+    background-color: grey;
+    font: bold 18px Helvetica, Sans-Serif;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    width: 250px;
+    height: 25px;
+    padding: 7px;
+    /*margin: 10px auto 50px;*/
+    float: right;
+    overflow: hidden; /* Clear floats */
+}
